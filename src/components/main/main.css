@@ -1,0 +1,56 @@
+.main {
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+            "modal1 modal2 modal3";
+}
+
+.btn_A, .btn_B {
+    text-decoration: none;
+    border: none;
+    height: 60px;
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn_A {
+    background-color: #46139f;
+}
+
+.btn_B {
+    background-color: #ff7f50;
+}
+
+.q {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal1 {
+    grid-area: modal1;
+}
+
+.modal2 {
+    grid-area: modal2;
+}
+
+.modal3 {
+    grid-area: modal3;
+}
+
+/*.modal1, .modal2, .modal3 {*/
+/*    margin: 30px;*/
+/*}*/
+
+.buttons {
+    position: fixed;
+    top: calc(50% - 60px);
+    left: calc(50% - 120px);
+}

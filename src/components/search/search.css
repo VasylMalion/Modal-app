@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search > input {
+    display: flex;
+    height: 22px;
+    width: 200px;
+    font-size: 16px;
+}
+
+.search > input::placeholder {
+    font-size: 16px;
+}

@@ -1,0 +1,80 @@
+.modal1 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+a > button {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.a > button:hover {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnAllContact {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #46139f;
+}
+
+.btnAllContact:hover {
+    color: #46139f;
+    background-color: white;
+}
+
+.btnUSContact {
+    color: white;
+    background-color: #ff7f50;
+}
+
+.btnUSContact:hover {
+    color: #ff7f50;
+    background-color: white;
+}
+
+.close {
+    color: #46139f;
+    background-color: white;
+    border: 2px solid #46139f
+}
+
+.close:hover {
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.modal1 > input {
+    margin: 0;
+}
